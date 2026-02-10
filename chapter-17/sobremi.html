@@ -1,248 +1,248 @@
 <!DOCTYPE html>
 <html>
 	<!--head engloba metadatos, estilos y scripts-->
-	<head>
-		<!--title: titulo que se muestra en la pestaña del navegador es la que indica el nombre oficial de la pagina y esta dentro de la etiqueta head
-		y es muy importante ya que es lo que muestra el buscador -->
-		<title>Ángel Cruz Martínez</title>
-		<!--style: etiqueta de estilos CSS para la pagina para no tener que llamar a un archivo externos
-		para CSS-->
-		<style type="text/css">
-			/*Un selector CSS es la primera parte de una regla de estilo que define qué elemento(s) HTML (<h1>, <div>, etc.) se seleccionan para aplicarle propiedades de diseño (color, tamaño, posición). 
-				Actúa como un patrón de búsqueda para identificar elementos en el DOM mediante etiquetas, clases, IDs o atributos. */
-			header, section, footer, aside, nav, article, figure, figcaption {
+	<cabeza>
+		<!--típulo: típulo que se muerte en la plaga del navegador es la que indica el nombre oficial de la página y esta dentro de la etiqueta head
+y es muy importante ya que es lo que muerte el comprador -->
+		<tipulo>Ángel Cruz Martínez</tipulo>
+		<!--style: etiqueta de estilos CSS para la página para no tener que llamar a un archivo externos
+para CSS-->
+		<estilo tipo="texto/css">
+/*Un selector CSS es la primera parte de una regla de estilo que define qué elemento(s) HTML (<h1>, <div>, etc.) se selecciona para aplicar propiedades de enfermadad (color, tamaño, posición). 
+Actúa como un patrón de bolsa para identificar elementos en el DOM mediante etiquetas, clases, IDs o atributos. */
+encabezado, sección, pastel, aparte, nav, artículo, figura, figcaption {
 
-				/*La propiedad display: block convierte a un elemento HTML en un elemento de nivel de bloque. 
-				Esto cambia radicalmente cómo se posiciona en la página y 
-				cómo interactúa con los objetos que lo rodean*/
-				display: block;}
+/*La propiedad display: block convenienteeeeete a un elemento HTML en un elemento de nivel de bloque. 
+Esto cambia radicalmente codo se posiciona en la página y 
+código interactuúa con los objetos que lo registran*/
+visualizar: bloque;}
 
-			/*Esto coge la etiqueta body que es el cuerpo de la pagina web y sus estilos se aplica
-			a  toda la pagina web*/
-			body {
-				/*Color de las letras*/
-				color: #666666;
-				/*el color del fondo*/
-				background-color: #f9f8f6;
-				/*Se define dentro de la regla de estilo para el cuerpo del documento, 
-				utilizando una URL que apunta a la ubicación de la imagen*/
-				background-image: url("images/fondo.jpg");
+/*Esto coge la etiqueta body que es el cuerpo de la página web y sus estilos se aplica
+a toda la pagina web*/
+cuerpo {
+/*Color de las letras*/
+color: #666666;
+/*el color del fondo*/
+color de fondo: #f9f8f6;
+/*Se define dentro de la regla de estilo para el cuerpo del documento, 
+utilizando una URL que apunta a la ubicación de la imagen*/
+imagen de fondo: url("imágenes/fondo.jpg");
 
-				background-position: center;
-				/*font family aplica para todas las letras que esten dentro de body esa fuente*/
-				font-family: Georgia, Times, serif;
-				/*define la altura de linea de manera vertical*/
-				line-height: 1.4em;
-				margin: 0px;}
-				/*Selector de clase, se aplica el elemento mediante class="wrapper"*/
-			.wrapper {
-				/*se utiliza para centrar la pagina web */
-				width: 940px;
-				/*genera un espacio vacio al rededor del contenido*/
-				margin: 20px auto 20px auto;
-				/*delimita visualmente */
-				border: 2px solid #000000;
-				/*el color del fondo que vamos a poner en el espacio creado*/
-				background-color: #ffffff;}
+posición de fondo: centro;
+/*font family aplica para todas las letras que están dentro de body esa fuente*/
+familia de fuentes: Georgia, Times, serif;
+/*define la altura de línea de mano vertical*/
+alta de línea: 1,4em;
+margen: 0px;}
+/*Selector de clase, se aplica el elemento mediante class="wrapper"*/
+. . . . . . . . . . . . . . .envoltorio {
+/*se utiliza para centrar la página web */
+ancho: 940px;
+/*géneros un espacio vacío al reedor del contenido*/
+margen: 20px automático 20px automático;
+/*delimita visualmente */
+borde: 2px sólido #000000;
+/*el color del fondo que vamos a poner en el espacio creado*/
+color de fondo: #ffffff;}
 
-				/*Esto es para darle estilo al header la parte superior de la pagina*/
-			header {
-				/*Le estás diciendo al navegador que, pase lo que pase, el contenedor del encabezado debe medir exactamente 160 píxeles de alto. 
-				Si no pones esta línea, el header solo mediría lo que ocupen los elementos que tenga dentro (como un logo o texto)*/
-				height: 160px;
-				/*background-image: url(images/header.jpg); (Imagen de fondo):
-				Le asigna una imagen al fondo del contenedor.
-				url(...): Es la función que le dice al navegador dónde buscar el archivo.
-				images/header.jpg: Es la ruta. En este caso, indica que dentro de tu carpeta de proyecto hay una carpeta llamada images y dentro está el archivo header.jpg*/
-				background-image: url(images/header.jpg);}
-				/*h1 le dice que a esa etiqueta le tiene que poner los siguientes estilos*/
-			h1 {
-				/*Sirve para ocultar visualmente el texto del h1 (el nombre de tu web), pero manteniendo el texto ahí para que Google (SEO) 
-				y los lectores de pantalla para personas con discapacidad visual sigan sabiendo de qué trata la página.*/
-				text-indent: -9999px;
-				/*Define que el encabezado tendrá un ancho fijo de 940 píxeles. Es una medida muy común en diseños antiguos 
-				o basados en rejillas fijas para que el encabezado coincida con el ancho del resto de la web.*/
-				width: 940px;
-				/*Define que el encabezado tendrá una altura de 130 píxeles. Probablemente, esta altura coincide exactamente con la altura del logo o la imagen de fondo que planeas poner en el encabezado.*/
-				height: 130px;
-				/*Elimina cualquier espacio exterior que el navegador suela poner por defecto en los títulos (los h1 suelen traer un margen arriba y abajo de fábrica). 
-				Al ponerlo a 0px, el título se queda pegado a los bordes de su contenedor.*/
-				margin: 0px;}
-				/*Esto es el selector. La coma significa "y". 
-				Le estás diciendo al navegador: "Aplica las siguientes reglas tanto a la etiqueta <nav> como a la etiqueta <footer>*/
-			nav, footer {
-				/*Esta propiedad se usa para limpiar elementos que están flotando (float: left o right).
-				Lo que hace: Asegura que el nav y el footer no se queden "pegados" a los lados de otros elementos anteriores. 
-				Los obliga a bajar y ocupar su propia línea, despejando cualquier obstrucción a la izquierda o derecha.*/
-				clear: both;
-				/*Esta es la propiedad del texto.
-				Cambia el color de las letras a blanco (#ffffff es el código hexadecimal para el blanco puro).*/
-				color: #ffffff;
-				/*Esta es la propiedad del fondo.*/
-				background-color: #aeaca8;
-				/*Esta es la altura fija*/
-				height: 30px;}
-				/*El nav ul es diferente al de arriba, arriba le da esas propiedades tanto a nav como a footer por separado
-				aqui le damos a nav y ul a la vez estas propiedades cuando estan juntos, es decir cuando nav esta arriba 
-				indicando que tiene como un "hijo" que seria ul (lista)*/
-			nav ul {
-				/*Margin es o para poner un margen o para quitarlo, Quita el margen que navegadores como firefox o chrome 
-				general en las listas*/
-				margin: 0px;
-				/*El padding se refiere al espacio interlineal, cada uno de los pixeles es como una cordenada entre linea y linea*/
-				padding: 5px 0px 5px 30px;}
-				/*Este es lo mismo que arriba pero a los elementos que pertenezcan a la lista*/
-			nav li {
-				/*Display indica como se van a poner los elmentos de la lista es decir 
-				por defecto una lista tiene elementos tipo block que se ponen uno encima de otro
-				asi que el estilo inline nos dice para ponerlo uno al lado de otro*/
-				display: inline;
-				/*Lo unico que indica el margen que dejara a la derecha*/
-				margin-right: 40px;}
-				/*Este es lo mismo que arriba pero indica que los que sean tipo enlaces dentro de los elementos de una lista
-				tengan estos atributos*/
-			nav li a {
-				/*todos los enlaces sean blancos*/
-				color: #ffffff;}
-				/*Estos sirven para cuando pasas el raton por encima*/
-			nav li a:hover, nav li a.current {
-				color: #f54242;}
-				/*Esta etiqueta esta echo para que el css busque un apartado llamado class=courses*/
-			section.courses {
-				/*hace que la caja este en la izquiera dejando la derecha libre para otros elementos*/
-				float: left;
-				/*esto le da un ancho fijo a los elementos*/
-				width: 659px;
-				/*hace una linea vertical de 1 pixel*/
-				border-right: 1px solid #eeeeee;}
-				/*Este engloba a todos los elemntos articulo de la pagina que serian como los post*/
-			article {
-				/*Esto es todo lo contrario a lo que vimos antes de float esto indica que cada nuevo articulo empiece
-				en una nueva linea*/
-				clear: both;
-				/*Esto sirve para si tienes fotos en los articulos puedan expandirse dependiendo de lo que mida*/
-				overflow: auto;
-				/*Esto sirve para que ocupe todo el ancho posible en el contenedor*/
-				width: 100%;}
-				/*Esto es una etiqueta apunta a lo de agrupar titulos*/
-			hgroup {
-				margin-top: 40px;}
-				/*Figure apunta al contenedor donde estaran las imagenes*/
-			figure {
-				/*Esto es lo de antes para que se ponga a la izquierda*/
-				display: block;
-				/*define el tamaño fijo para la imagen*/
-				width: 290px;
-				height: 150px;
-				/*crea pequeños espacios entre imagen e imagen*/
-				padding: 5px;
-				margin: 5px;
-				border: 1px solid #eeeeee;}
-				/*sirve para el titulo de la imagen */
-			figcaption {
-				/*reduce el tamaño de la letra*/
-				font-size: 90%;
-				text-align: left;}
-				/*aside indica el bloque lateral*/
-			aside {
-				/*el ancho*/
-				width: 230px;
-				/*como ya teniamos un float left pues este se queda a la derecha del anterior creado*/
-				float: left;
-				/*añade 20 pixeles a la izquierda del espacio añadido*/
-				padding: 0px 0px 0px 20px;}
-				/*al igual que antes pero este va hacia los enlaces dentro de section*/
-			aside section a {
-				/*Display nos indica que estos enlaces se pondran uno encima de otro*/
-				display: block;
-				/*añade un espaciado de 10 pixeles*/
-				padding: 10px;
-				/*dibuja una linea gris debajo de cada enlace*/
-				border-bottom: 1px solid #eeeeee;}
-				/*Esto indica cuand un usuario pasa por encima*/
-			aside section a:hover {
-				/*cuando pase por encima que se ponga las letras de color rosita/morado*/
-				color: #985d6a;
-				background-color: #efefef;}
-				/*Este es para todos los de mas enlaces que no tienen ninguna regla por delante*/
-			a {
-				color: #65deb6;
-				text-decoration: none;}
-				/*ajusta los 3 niveles de titulos*/
-			h1, h2, h3 {
-				font-weight: normal;}
-				/*define el titulo 2*/
-			h2 {
-				color: #940808;
-				margin: 10px 0px 5px 0px;
-				padding: 0px;}
-				/*define el titulo 3*/
-			h3 {
-				margin: 0px 0px 10px 0px;
-				color: #65b2de;}
-				/*el titulo 2 que este a la izquierda*/
-			footer {
-				font-size: 80%;
-				padding: 7px 0px 0px 20px;}
-		</style>
-		<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-	</head>
-	<!--Esto que tenemos aqui es una etiqueta que indica que este es el cuerpo de la pagina web-->
-	<body>
-		<!--Como vimos en los styles tenemos el apartado clase wrapper-->
-		<div class="wrapper">
-			<!--Esto indica la parte superior de la pagina web pero la que se puede ver-->
-			<header>
-				<!--Este es el titulo de la pagina web-->
+/*Esto es para darle estilo al encabezado la parte superior de la página*/
+encabezado {
+/*Le está diciendo al navegador que, pase lo que pase, el contenedor del encabezado debe medir exactamente 160 píxeles de alto. 
+Si no pones esta línea, el encabezado solo media lo que ocupan los elementos que tienen dentro (como un logo o texto)*/
+alta: 160px;
+/*imagen de fondo: url(imágenes/header.jpg); (Imagen de fondo):
+Le asigna una imagen al fondo del contenedor.
+url(...): Es la función que le dice al navegador dónde buscar el archivo.
+imágenes/header.jpg: Es la ruta. En este caso, indica que dentro de tu alfombra de proyecto hay una alfombra llamada imágenes y dentro está el archivo header.jpg*/
+imagen de fondo: url(imágenes/header.jpg);}
+/*h1 le dice que a esa etiqueta le tiene que poner los seguidores estilos*/
+h1 {
+/*Sirve para ocultar visualmente el texto del h1 (el nombre de tu web), pero manteniendo el texto ahí para que Google (SEO) 
+y los lectores de pantalla para personas con discapacidad visual sigan sabiendo de qué trata la página.*/
+títulohtml-9999px;
+/*Define que el encabezado tenderá un ancho fijo de 940 píxeles. Es una medida muy común en emergencias antiguas 
+o basados en rejillas fijas para que el encabezado coincida con el ancho del resto de la web.*/
+ancho: 940px;
+/*Define que el encabezado tenderá una alta de 130 píxeles. Probablemente, esta altura coincide exactamente con la altura del logo o la imagen de fondo que planos poner en el encabezado.*/
+alta: 130px;
+/*Elimina cual espacio exterior que el navegador suela poner por defecto en los tejidos (los h1 suelen traer un marco arriba y bajo de fábrica). 
+Al ponerlo a 0px, el té se queda pegado a los bordes de su contenedor.*/
+margen: 0px;}
+/*Esto es el selector. La coma significa "y". 
+Le está diciendo al navegador: "Aplica las seguidores reglas tanto a la etiqueta <nav> como a la etiqueta <pie>*/
+navegación, pastel de página {
+/*Esta propiedad se usa para limpiar elementos que están flotando (flotante: izquierda o derecha).
+Lo que hace: Asegura que el nav y el footer no se queden "pegados" a los lados de otros elementos anteriores. 
+Los obliga a bajar y ocupar su propiedad línea, dejando cual obstrucción a la izquierda o derecha.*/
+claro: ambos;
+/*el color del fondo*/
+<!DOCTYPE html>
+html
+/*Esta es la propiedad del fondo.*/
+color de fondo: #aeaca8;
+/*Esta es la alta fija*/
+alta: 30px;}
+/*El nav ul es diferente al de arriba, arriba le da esas propiedades tanto a nav como a pie de página por separado
+aqui le damos a nav y ul a la vez estas propiedades cuando están juntos, es decir cuando nav esta arriba 
+indicando que tiene como un "hijo" que seria ul (lista)*/
+nav ul {
+/*Margen es o para poner un margen o para quitarlo, Quita el margen que navegadores como firefox o chrome 
+general en las listas*/
+margen: 0px;
+/*El padding se refiere al espacio interlineal, cada uno de los pixeles es como una cordenada entre línea y línea*/
+relleno: 5px 0px 5px 30px;}
+/*Este es lo mismo que arriba pero a los elementos que pertenecan a la lista*/
+nav li {
+/*Mostrar indica como se van a poner los elementos de la lista es decidir 
+por defecto una lista tiene elementos tipo bloque que se ponen uno encima de otro
+asi que el estilo en línea nos dados para ponerlo uno al lado de otro*/
+pantalla: en línea;
+/*Lo único que indica el margen que dejara a la derecha*/
+margen derecho: 40px;}
+/*Este es lo mismo que arriba pero indica que los que sean tipo enlaces dentro de los elementos de una lista
+tengan estos atributos*/
+Si no pones esta línea, el encabezado solo media lo que ocupan los elementos que tienen dentro (como un logo o texto)*/
+/*Le está diciendo al navegador que, pase lo que pase, el contenedor del encabezado debe medir exactamente 160 píxeles de alto. 
+Si no pones esta línea, el encabezado solo media lo que ocupan los elementos que tienen dentro (como un logo o texto)*/
+/*Estos sirven para cuando pasas el ratón por encima*/
+url(...): Es la función que le dice al navegador dónde buscar el archivo.
+color: #f54242;}
+/*Esta etiqueta esta echo para que el css busque un apartado llamado class=cursos*/
+sección.cursos {
+/*hace que la caja este en la izquería dejando la derecha libre para otros elementos*/
+float: izquierda;
+/*to le da un ancho fijo a los elementos*/
+ancho: 659px;
+/*hace una línea vertical de 1 píxel*/
+borde derecho: 1px sólido #eeeeee;}
+/*Este inglés a todos los elementos articulo de la página que serian como los post*/
+artículo {
+/*Esto es todo lo contrario a lo que vamos antes de float esto indica que cada nuevo artículo empiece
+en una nueva línea*/
+claro: ambos;
+/*Este señor para si tienes fotos en los artísticos pueden expandir dependiente de lo que mida*/
+desarrollo: automático;
+/*Este señor para que ocupa todo el ancho posible en el contenedor*/
+ancho: 100%;}
+/*Esto es una etiqueta junta a lo de agrupar tejidos*/
+hgrupo {
+margen superior: 40px;}
+/*Figura punta al contenedor donde están las imágenes*/
+Los obliga a bajar y ocupar su propiedad línea, dejando cual obstrucción a la izquierda o derecha.*/
+/*Esto es lo de antes para que se ponga a la izquierda*/
+másrar: bloquear;
+/*define el tamaño fijo para la imagen*/
+color: #ffffff;
+alta: 150px;
+/*crea pequeños espacios entre imágenes e imágenes*/
+relleno: 5px;
+margen: 5px;
+borde: 1px sólido #eeeeee;}
+/*señor para el título de la imagen*/
+figcaption {
+/*reducir el tamaño de la letra*/
+tamaño de fuente: 90%;
+alineación de texto: izquierda;}
+/*aparte indica el bloque lateral*/
+aparte {
+/*el ancho*/
+ancho: 230px;
+/*como ya teniamos un float left pones este se queda a la derecha del crema anterior*/
+float: izquierda;
+/*añade 20 pixeles a la izquierda del espacio añadido*/
+relleno: 0px 0px 0px 20px;}
+/*al igual que antes pero este va gracia los enlaces dentro de sección*/
+aparte de la sección a {
+margen derecho: 40px;}
+másrar: bloquear;
+/*añade un espaciado de 10 pixeles*/
+relleno: 10px;
+/*dibuja una línea gris debojo de cada enlace*/
+borde inferior: 1px sólido #eeeeee;}
+/*Esto indica cuand un usuario pasa por encima*/
+aparte de la sección a:hover {
+/*cuando pase por encima que se pone las letras de color rosita/morado*/
+color: #985d6a;
+color de fondo: #efefef;}
+/*Este es para todos los de mas enlaces que no tienen nada cuenta por delante*/
+a {
+color: #65deb6;
+decoración de texto: ninguna;}
+/*ajusta los 3 niveles de títulos*/
+h1, h2, h3 {
+peso de fuente: normal;}
+/*definir el título 2*/
+h2 {
+color: #940808;
+margen: 10px 0px 5px 0px;
+relleno: 0px;}
+/*definir el título 3*/
+h3 {
+margen: 0px 0px 10px 0px;
+/*Esto es una etiqueta junta a lo de agrupar tejidos*/
+/*el título 2 que este a la izquierda*/
+pastel de página {
+tamaño de fuente: 80%;
+relleno: 7px 0px 0px 20px;}
+</estilo>
+		<!--[si es IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</cabeza>
+	<!--Esto que tenemos aquí es una etiqueta que indica que este es el cuerpo de la página web-->
+	<cuervo>
+		<!--Como vimos en los estilos tenemos el apartado clase wrapper-->
+		<div clase="envoltorio">
+			<!--Esto indica la parte superior de la página web pero la que se puede ver-->
+			<encabezado>
+				<!--Este es el título de la página web-->
 				<h1>Ángel Cruz Martínez</h1>
 				<!--Es una etiqueta que dice lo que hay dentro a los navegadores-->
 				<nav>
-					<!--Ul es una etiqueta que sirve para crear una lista-->
+html<!--Ul es una etiqueta que sirve para crear una lista-->
 					<ul>
-						<!--Li son los elemntos que estan dentro de la lista y la etiqueta a href es para crear un hipervinculo
-						un texto que tenga una conexion hacia X cosa-->
-						<li><a href="file:///home/usuario/git/proyecto_estudio_html_css/chapter-17/example.html" >Inicio</a></li> 
-						<li><a href="file:///home/usuario/git/proyecto_estudio_html_css/chapter-17/estudios.html">Estudios</a></li>
-						<li><a href="" class="current">Sobre mi</a></li>
-						<li><a href="file:///home/usuario/git/proyecto_estudio_html_css/chapter-17/contact.html">Contacto</a></li>
+						<!--Li son los elementos que están dentro de la lista y la etiqueta a href es para crear un hipervínculo
+un texto que tiene una conexión haza X cosa-->
+						<li><a href="example.html" >Inicio</a></li> 
+						<li><a href="estudios.html">Estudios</a></li>
+relleno: 0px 0px 0px 20px;}<li><a href="" clase="real">Sobre mi</a></li>
+						<li><a href="contact.html">Contacto</a></li>
 					</ul>
 				</nav>
-			</header>
-			<!--Section se refiere a cuando en el style pusimos section.courses pues se refiere a esta parte del codigo
-			-->
-			<section class="courses">
-				<!--Article es una referencia a hacer como "post" gracias a que en el style le dimos clear both y overflow auto
-				los articulos no se ponen encima de otros y las fotos que agreguemos a la pagina web se estiran con el texto-->
-				<article>
-					<!--Figure es para las imagenes y tiene conexion directa con el CSS-->
-					<figure>
-						<!--img es la etiqueta para agregar una imagen, como tenemos una carpeta local podemos ver las imagenes
-						en nuestra carpeta-->
-						<img src="images/captur.png" alt="captura1" />
-						<!--Figcaption es como un pie de imagen que lo agregamos -->
+			</encabezado>
+			<!--Sección se refiere a cuando en el estilo pusimos sección.cursos pones se refiere a esta parte del código
+-->
+			<sección clasa="cursos">
+				<!--Artículo es una referencia a hacer como "post" gracias a que en el estilo le dedos borrar ambos y overflow auto
+los artísticos no se ponen cima de otros y las fotos que agruemos a la página web se están con el texto-->
+				<articulo>
+					<!--Figura es para las imágenes y tiene conexión directa con el CSS-->
+					<figura>
+						<!--img es la etiqueta para agregar una imagen, como diezmos una alfombra local podemos ver las imágenes
+en nuestra alfombra-->
+						<img src="imágenes/captur.png" alt="captura1" />
+color: #65deb6;<!--Figcaption es como un pie de imagen que lo agregados -->
 						<figcaption>yo</figcaption>
-					</figure>
+					</figura>
 					<!--Hgroup es una etiqueta que agrupa los textos, en el css teniamos una etiqueta que separaba los textos
-					40 pixeles-->
-					<hgroup>
-						<!--h2 y h3 son etiquetas de titulo lo del medio lo vemos en la pagina web-->
+40 píxeles-->
+					<grupo h>
+						<!--h2 y h3 son etiquetas de título lo del medio lo vemos en la página web-->
 						<h2>Sobre Mi</h2>
 						<h3>Ángel Cruz Martínez</h3>
-					</hgroup>
+					</grupo h>
 					<!--este es el parrafo-->
-					<p>Me llamo Ángel Cruz Martínez, soy estudiante de 2ºSMR en el I.E.S VEGA DE MIJAS y este es mi pagina web sobre mi</p>
-				</article>   
-			</section>
+					<p>Me llamo Ángel Cruz Martínez, soy estudiante de 2oSMR en el IES VEGA DE MIJAS y este es mi página web sobre mi</p>
+				</articulo>   
+			</sección>
 				<!--Aqui tenemos los contactos-->
-				<section class="contact-details">
+				<sección clase="detalles de contacto">
 					<h2>Contacto</h2>
-					<!--la etiqueta p es para los aprrafos y br es para hacer salto de linea-->
+					<!--la etiqueta es para los aprrafos y br es para hacer salto de linea-->
 					<p>Ángel Cruz Martínez<br />
-						calle calle<br />
-						algunsitio<br />
-						ESPAÑA</p>
+calle calle<br />
+algunsitio<br />
+ESPAÑA</p>
 				</section>
 			</aside>
 			<!--El footer pero que no tiene ningun css, es el que vimos al final del todo-->
