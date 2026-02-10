@@ -106,7 +106,7 @@
 				color: #ffffff;}
 				/*Estos sirven para cuando pasas el raton por encima*/
 			nav li a:hover, nav li a.current {
-				color: #f54242;}
+				color: #000000;}
 				/*Esta etiqueta esta echo para que el css busque un apartado llamado class=courses*/
 			section.courses {
 				/*hace que la caja este en la izquiera dejando la derecha libre para otros elementos*/
@@ -166,21 +166,24 @@
 				background-color: #efefef;}
 				/*Este es para todos los de mas enlaces que no tienen ninguna regla por delante*/
 			a {
-				color: #65deb6;
+				color: #de6581;
 				text-decoration: none;}
 				/*ajusta los 3 niveles de titulos*/
 			h1, h2, h3 {
 				font-weight: normal;}
 				/*define el titulo 2*/
 			h2 {
-				color: #940808;
 				margin: 10px 0px 5px 0px;
 				padding: 0px;}
 				/*define el titulo 3*/
 			h3 {
 				margin: 0px 0px 10px 0px;
-				color: #65b2de;}
+				color: #de6581;}
 				/*el titulo 2 que este a la izquierda*/
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #de6581;}
+				/*el footer si no tuviera nada*/
 			footer {
 				font-size: 80%;
 				padding: 7px 0px 0px 20px;}
@@ -204,9 +207,9 @@
 						<!--Li son los elemntos que estan dentro de la lista y la etiqueta a href es para crear un hipervinculo
 						un texto que tenga una conexion hacia X cosa-->
 						<li><a href="" class="current">Inicio</a></li> 
-						<li><a href="file:///home/usuario/git/proyecto_estudio_html_css/chapter-17/estudios.html">Estudios</a></li>
-						<li><a href="file:///home/usuario/git/proyecto_estudio_html_css/chapter-17/sobremi.html">Sobre mi</a></li>
-						<li><a href="file:///home/usuario/git/proyecto_estudio_html_css/chapter-17/contact.html">Contacto</a></li>
+						<li><a href="">Estudios</a></li>
+						<li><a href="">Sobre mi</a></li>
+						<li><a href="">Contacto</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -234,10 +237,35 @@
 					<!--este es el parrafo-->
 					<p>Empezando a aprender codigo HTML para estudios futuros y creacion de paginas web </p>
 				</article>   
+				<!--este serie el segundo articulo--> 
+				<article>
+					<figure>
+						<img src="images/teriyaki.jpg" alt="Teriyaki sauce" />
+						<figcaption>Teriyaki Sauce</figcaption>
+					</figure>
+					<hgroup>
+						<h2>Sauces Masterclass</h2>
+						<h3>One day workshop</h3>
+					</hgroup>
+					<p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
+				</article>   
+				<!----> 
 			</section>
+			<!--este es el segundo aside que se pone en el espacio sobrante de la pagina web-->
+			<aside>
+				<!--Este apartado sigue el css de aside section a ya que este apartado hace referencias-->
+				<section class="popular-recipes">
+					<!--Esto es un texto -->
+					<h2>Popular Recipes</h2>
+					<!--estas son las referencias hacia alguna parte-->
+					<a href="">Yakitori (grilled chicken)</a>
+					<a href="">Tsukune (minced chicken patties)</a>
+					<a href="">Okonomiyaki (savory pancakes)</a>
+					<a href="">Mizutaki (chicken stew)</a>
+				</section>
 				<!--Aqui tenemos los contactos-->
 				<section class="contact-details">
-					<h2>Contacto</h2>
+					<h2>Contact</h2>
 					<!--la etiqueta p es para los aprrafos y br es para hacer salto de linea-->
 					<p>Ángel Cruz Martínez<br />
 						calle calle<br />
